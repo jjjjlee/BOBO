@@ -7,7 +7,7 @@ import psycopg2
 from psycopg2.extras import RealDictCursor
 import time
 app = FastAPI()
-
+print("Hello, world!")
 class Post(BaseModel):
     title: str
     content: str
